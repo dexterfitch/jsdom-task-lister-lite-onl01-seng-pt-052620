@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     submitButtonClick.preventDefault();
   });
 
-  document.querySelectorAll()
+  let deleteTasksObjs = document.querySelectorAll(".delete-tasks");
 
 });
