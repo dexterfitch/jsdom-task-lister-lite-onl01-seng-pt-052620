@@ -16,8 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener("click", (clickEvent) => {
-    console.log(clickEvent.target);
-    console.log(clickEvent.target.closest("li"));
+    if (clickEvent.target.className === "delete-tasks") {
+      console.log(clickEvent.target.closest("li"));
+    }
   });
 
   function deleteTask() {
