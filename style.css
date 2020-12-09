@@ -54,4 +54,6 @@ button {
     font-size: 10px;
     font-weight: bold;
     color: darkslategray;
+    position: relative;
+    bottom: 3px;
 }
