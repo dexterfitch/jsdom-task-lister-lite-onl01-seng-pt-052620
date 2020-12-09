@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  
   const submitButton = document.getElementById("submit-button");
   const newTaskDescription = document.getElementById("new-task-description");
   let taskCounter = 0;
