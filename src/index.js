@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Blank tasks aren't real tasks.")
     } else {
       document.getElementById("tasks").innerHTML += `<li>${task}</li>`;
+      newTaskDescription.value = "";
     }
     submitButtonClick.preventDefault();
   });
