@@ -41,11 +41,11 @@ button {
   padding-inline-start: 0;
 }
 
-#tasks .task {
+#tasks #task-* {
   margin-bottom: 20px;
 }
 
-.delete-tasks {
+#delete-task-* {
   border: 1px solid lightslategrey;
   padding: 0 4px 2px 3px;
   border-radius: 50%;
