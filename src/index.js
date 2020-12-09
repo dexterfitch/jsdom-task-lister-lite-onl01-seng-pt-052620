@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Blank tasks aren't real tasks.")
     } else {
       taskCounter++;
-      document.getElementById("tasks").innerHTML += `<li id="task-${taskCounter}"><span class="delete-tasks" id="delete-task-${taskCounter}">x</span>  ${task}</li>`;
+      document.getElementById("tasks").innerHTML += `<li id="task-${taskCounter}"><span class="delete-tasks" id="delete-task-${taskCounter}">x</span> ${taskCounter}. ${task}</li>`;
       newTaskDescription.value = "";
     }
     submitButtonClick.preventDefault();
