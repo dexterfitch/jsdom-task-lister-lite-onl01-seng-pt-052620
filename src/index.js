@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener("click", (clickEvent) => {
-    console.log(clickEvent.target.closest);
+    console.log(clickEvent.target.closest("li"));
   });
 
   function deleteTask() {
