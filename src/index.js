@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let taskCounter = 0;
 
   submitButton.addEventListener("click", (submitButtonClick) => {
-    let tasksLeft = document.querySelectorAll("#tasks").length;
     let task = newTaskDescription.value;
+    let tasksLeft = document.querySelectorAll("#tasks li").length;
     if (task === "") {
       alert("Blank tasks aren't real tasks.")
     } else {
