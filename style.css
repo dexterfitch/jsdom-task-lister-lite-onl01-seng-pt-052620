@@ -56,4 +56,5 @@ button {
   color: darkslategray;
   position: relative;
   bottom: 2px;
+  cursor: pointer;
 }
