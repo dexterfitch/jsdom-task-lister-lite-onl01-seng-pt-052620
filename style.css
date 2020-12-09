@@ -48,6 +48,7 @@ button {
 }
 #tasks {
   list-style: none;
+  padding-inline-start: 0;
 }
 #tasks .task {
 
