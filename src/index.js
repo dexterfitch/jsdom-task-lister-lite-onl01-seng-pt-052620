@@ -5,12 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   submitButton.addEventListener("click", (submitButtonClick) => {
     let task = newTaskDescription.value;
-    let tasksLeft = document.querySelectorAll("#tasks li").length;
     if (task === "") {
       alert("Blank tasks aren't real tasks.")
     } else {
       taskCounter++;
-      document.getElementById("tasks").innerHTML += `<li id="task-${taskCounter}"><span class="delete-tasks" id="delete-task-${taskCounter}">x</span>&nbsp;&nbsp;${tasksLeft + 1}. ${task}</li>`;
+      document.getElementById("tasks").innerHTML += `<li id="task-${taskCounter}"><span class="delete-tasks" id="delete-task-${taskCounter}">x</span>&nbsp;&nbsp;${task}</li>`;
       newTaskDescription.value = "";
     }
     submitButtonClick.preventDefault();
