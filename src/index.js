@@ -4,12 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
   let taskCounter = 0;
 
   submitButton.addEventListener("click", (submitButtonClick) => {
+    let tasksLeft = document.querySelectorAll("#tasks").length;
     let task = newTaskDescription.value;
     if (task === "") {
       alert("Blank tasks aren't real tasks.")
     } else {
       taskCounter++;
-      document.getElementById("tasks").innerHTML += `<li id="task-${taskCounter}"><span class="delete-tasks" id="delete-task-${taskCounter}">x</span>&nbsp;&nbsp;${taskCounter}. ${task}</li>`;
+      document.getElementById("tasks").innerHTML += `<li id="task-${taskCounter}"><span class="delete-tasks" id="delete-task-${taskCounter}">x</span>&nbsp;&nbsp;${tasksLeft + 1}. ${task}</li>`;
       newTaskDescription.value = "";
     }
     submitButtonClick.preventDefault();
