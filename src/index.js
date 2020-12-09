@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener("click", (clickEvent) => {
+    console.log(clickEvent.target);
     console.log(clickEvent.target.closest("li"));
   });
 
