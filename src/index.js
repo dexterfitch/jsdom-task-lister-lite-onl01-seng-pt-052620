@@ -15,6 +15,13 @@ document.addEventListener("DOMContentLoaded", () => {
     submitButtonClick.preventDefault();
   });
 
-  let deleteTasksObjs = document.querySelectorAll(".delete-tasks");
+  document.addEventListener("click", (clickEvent) => {
+    console.log(clickEvent.target.closest);
+  });
+
+  function deleteTask() {
+    
+  }
 
 });
+
