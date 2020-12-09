@@ -46,3 +46,6 @@ button {
     font-weight: bold;
     color: darkslategray;
 }
+.task {
+  line-height: 2;
+}
