@@ -13,6 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     submitButtonClick.preventDefault();
   });
 
-  
-  
+
+
 });
