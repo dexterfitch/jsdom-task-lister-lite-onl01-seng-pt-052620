@@ -47,7 +47,7 @@ button {
     color: darkslategray;
 }
 #tasks {
-
+  list-style: none;
 }
 #tasks .task {
 
