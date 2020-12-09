@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   submitButton.addEventListener("click", function(submitButtonClick) {
     let task = newTaskDescription.value;
     if (task === "") {
-      return
+      alert("Blank tasks aren't real tasks.")
     } else {
       document.getElementById("tasks").innerHTML += `<li>${task}</li>`;
     }
