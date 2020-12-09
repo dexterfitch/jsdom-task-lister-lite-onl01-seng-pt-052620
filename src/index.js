@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (task === "") {
       alert("Blank tasks aren't real tasks.")
     } else {
-      document.getElementById("tasks").innerHTML += `<li>${task} <span class="delete-task">x</span></li>`;
+      document.getElementById("tasks").innerHTML += `<li>${task} <span class="delete-tasks">x</span></li>`;
       newTaskDescription.value = "";
     }
     submitButtonClick.preventDefault();
