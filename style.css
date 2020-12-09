@@ -36,7 +36,7 @@ button {
   box-shadow: 2px 5px 5px #333;
 }
 
-.delete-task {
+.delete-tasks {
     border: 1px solid lightslategrey;
     padding: 0 4px 2px 3px;
     border-radius: 50%;
